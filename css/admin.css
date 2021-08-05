@@ -1,0 +1,63 @@
+/* 
+Author: Mohammed Sibahi
+Theme: Press Store App
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+/* CSS for menu */
+.menu {
+    border-bottom: 1px solid gray;
+}
+
+.menu ul {
+    list-style-type: none; 
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1abc9c;
+}
+.menu ul li a:hover {
+    color: #16a085;
+}
+
+/* CSS for main content */
+.main-content {
+   
+    padding: 3% 0;
+    background-color: #ecf0f1;
+}
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #74b9ff;
+    color: white;
+}
